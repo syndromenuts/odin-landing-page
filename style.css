@@ -2,6 +2,10 @@
     font-family: Roboto, sans-serif
 }
 
+body {
+    margin: 0;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -12,9 +16,15 @@ a {
     text-decoration: none;
 }
 
-.header {
+.header, .hero {
     background-color: #1F2937;
-    padding: 18px 175px;
+    padding-left: 175px;
+    padding-right: 175px;
+}
+
+.header {
+    padding-top: 18px;
+    padding-bottom: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center
@@ -23,15 +33,58 @@ a {
 .logo {
     margin: 0;
     font-size: 24px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 .header-links {
-    display: flex
+    display: flex;
+    justify-content: right;
+    gap: 22px;
 }
 
-.header-link {
-    margin: 0px 15px;
+.header-link, .hero-text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+h1 {
+    margin: 0
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+p {
+    margin: 0
+}
+
+.hero-text {
+    margin-bottom: 10px;
+}
+
+button {
+    border: 0;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    width: 130px;
+    height: 35px;
+    border-radius: 6px;
+    color: #F9FAF8;
+    font-size: 17px;
+    font-weight: bold
 }
