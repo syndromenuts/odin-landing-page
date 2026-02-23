@@ -123,3 +123,21 @@ h2 {
     width: 200px;
     text-align: center
 }
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 120px 250px 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 20px;
+    padding: 0 33px;
+    font-weight: bold;
+}
