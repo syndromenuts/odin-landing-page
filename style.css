@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 
-.header, .hero {
+.header, .hero, .footer {
     background-color: #1F2937;
     padding-left: 175px;
     padding-right: 175px;
@@ -43,7 +43,7 @@ a {
     gap: 22px;
 }
 
-.header-link, .hero-text, .info-subtext {
+.header-link, .hero-text, .info-subtext, .footer {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -174,4 +174,11 @@ h3 {
     color: #F9FAF8;
     font-weight: bold;
     font-size: 16px
+}
+
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center
 }
