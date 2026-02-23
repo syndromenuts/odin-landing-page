@@ -141,3 +141,37 @@ h2 {
     padding: 0 33px;
     font-weight: bold;
 }
+
+h3 {
+    margin: 0
+}
+
+.action {
+    background-color: #3882F6;
+    margin: 85px 150px;
+    padding: 45px 100px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.action-main {
+    font-size: 25px
+}
+
+.action-text {
+    font-size: 17px;
+    font-weight: lighter
+}
+
+.action-button {
+    background-color: transparent;
+    padding: 5px 28px;
+    border: 2px solid #F9FAF8;
+    border-radius: 7px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 16px
+}
