@@ -50,7 +50,7 @@ a {
 
 .hero {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,7 +90,7 @@ button {
 }
 
 .info {
-    padding: 53px 0 100px;
+    padding: 53px 0 125px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,7 +126,7 @@ h2 {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 120px 250px 100px;
+    padding: 150px 400px 80px;
 }
 
 .quote-text {
@@ -148,7 +148,7 @@ h3 {
 
 .action {
     background-color: #3882F6;
-    margin: 85px 150px;
+    margin: 100px 250px;
     padding: 45px 100px;
     border-radius: 7px;
     display: flex;
